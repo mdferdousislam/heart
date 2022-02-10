@@ -1,0 +1,80 @@
+body{
+    background-color: #444;
+}
+
+.center{
+    margin-top: 360px;
+    margin-left: 610px;
+}
+.btn{
+text-decoration: none;
+font-size: 22px;
+text-transform: uppercase;
+padding: 15px;
+border: 1px solid #444;
+color: black;
+border-radius:5px;;
+background-color: #fff;
+font-weight: bold;
+transition: all .10s ease;
+}
+
+
+.btn:hover{
+    padding: 20px; 
+    font-size: 28px;
+    background-color: red;
+    color: #ffff;
+}
+/* heart part style--------------------------- */
+
+.main_div .first{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+.main_div .secound {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 70px;
+    margin-top: -100px;
+}
+.main_div .third {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: translate(42deg);
+    transform: rotate(45deg);
+    margin-left: 36px;
+    margin-top: -65px;
+}
+.main_div {
+    margin-left: 40%;
+    margin-top: 50px;
+    box-shadow: 0px 0px 31px 1px #0a0a0a;
+    width: 170px;
+    border-radius: 21px;
+}
+.i h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-left: 33%;
+}
+.allah h1 {
+    font-size: 80px;
+    color: #fff;
+    margin-left: 57%;
+}
+
+.animition{
+   animation:start 1s linear infinite;
+  
+}
+@keyframes start{
+    50%{
+        opacity: 0.5;
+    }
+}
